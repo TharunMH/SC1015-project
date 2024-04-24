@@ -7,7 +7,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 2. Exploratory Data Analysis (1)
 3. Machine Learning (1)
 4. Exploratory Data Analysis (2)
-5. Machine Learning (2
+5. Machine Learning (2)
 
 ## Contributors
 - Stanley Benjamin Yukon - Data gathering from Yahoo Finance, Data Extraction, Preparation and Cleaning, Elementary Data Analysis & Visualization.
@@ -26,18 +26,19 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## Conclusion 
 The positively correlated relationships between Crude Oil/Nat Gas and Food prices were the strongest.
-        Linear Regression    XGB
-Crude      :0.566                0.683       
 
-Nat Gas    :0.555                0.
+            Linear Regression (explained variance)    XGB
+Crude      :0.566                                     0.683       
 
-Fertilizer :0.371                
+Nat Gas    :0.555                                     0.
 
-Gold       :0.305                
+Fertilizer :0.371                                     
 
-Tesla      :0.293                
+Gold       :0.305                                     
 
-Berkshire  :0.123                
+Tesla      :0.293                                      
+
+Berkshire  :0.123                                     
 
 The relationship between Fertilizer prices and Food prices was positively correlated but unexpectedly weak.
 
@@ -50,8 +51,10 @@ It is possible to predict food prices using other variables but ???
 1. How to extract information from the internet, specifically Yahoo Finance.
 2. How to convert said data into a CSV file.
 3. Handling imbalanced datasets by getting rid of NULL Values.
-4. How to apply the Granger Causality test on time series to check how "temporally" related they are.
-5. How to use XGB to predict values of one time series using another.
+4. What are the properties of time series data.
+5. What are some of the machine learning techniques used to perform numeric predictions using time series data.
+6. How to apply the Granger Causality test on time series to check how "temporally" related they are.
+7. How to use XGB to predict values of one time series using another.
 
 ## References
 - https://xgboost.readthedocs.io/en/stable/python/python_intro.html
