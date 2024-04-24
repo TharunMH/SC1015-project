@@ -14,7 +14,41 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - Peter Loh Jun Xin  - Elementary Machine Learning using Linear Regression. Helping keep the project on track. Final Presentation.
 -  Tharun Mathialagan - Advanced Data Analysis using Granger Causality test. Advanced Machine Learning using XGBoost model.
 
+## Problem Definition
+1. Do the commonly held beliefs about what affects food prices hold true ? ( E.g Are Food Prices positively correlated with Oil Prices ? )
+  
+2. If relationships between Food Price and other variables can be established, can we predict Food Price using those variables ?
+
+## Models Used
+1. Linear Regression
+2. Granger Causality
+3. Extreme Gradient Boosting (XGB)
+
 ## Conclusion 
-The relationship between Crude Oil/Nat Gas and Food prices was the strongest.
+The positively correlated relationship between Crude Oil/Nat Gas and Food prices was the strongest.
+
+The relationship between Fertilizer prices and Food prices was positively correlated but unexpectedly weak.
+
+It is possible to predict food prices using other variables but ???
 
 ?????
+
+## What did we learn from this project ?
+1. How to extract information from the internet, specifically Yahoo Finance.
+2. How to convert said data into a CSV file.
+3. Handling imbalanced datasets by getting rid of NULL Values.
+4. How to apply the Granger Causality test on time series to check how "temporally" related they are.
+5. How to use XGB to predict values of one time series using another.
+
+## References
+- https://xgboost.readthedocs.io/en/stable/python/python_intro.html
+- https://stats.stackexchange.com/questions/55465/step-by-step-example-of-predicting-time-series-with-arimax-or-armax-model
+- https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/
+-
+-
+-
+-
+-
+-
+-
+
