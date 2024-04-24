@@ -27,11 +27,20 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 ## Conclusion 
 The positively correlated relationships between Crude Oil/Nat Gas and Food prices were the strongest.
         Linear Regression    XGB
-Crude  :                      0.683       
+Crude      :0.566                0.683       
 
-Nat Gas:                      0.
+Nat Gas    :0.555                0.
+
+Fertilizer :0.371                
+
+Gold       :0.305                
+
+Tesla      :0.293                
+
+Berkshire  :0.123                
 
 The relationship between Fertilizer prices and Food prices was positively correlated but unexpectedly weak.
+
 
 It is possible to predict food prices using other variables but ???
 
@@ -48,9 +57,9 @@ It is possible to predict food prices using other variables but ???
 - https://xgboost.readthedocs.io/en/stable/python/python_intro.html
 - https://stats.stackexchange.com/questions/55465/step-by-step-example-of-predicting-time-series-with-arimax-or-armax-model
 - https://www.analyticsvidhya.com/blog/2021/09/gradient-boosting-algorithm-a-complete-guide-for-beginners/
--
--
--
+- https://www.berkshirehathaway.com/subs/sublinks.html
+- https://www.influxdata.com/what-is-time-series-data/#:~:text=Time%20series%20data%20is%20unique,questions%20about%20it%20over%20time.
+- https://towardsdatascience.com/stationarity-in-time-series-analysis-90c94f27322
 -
 -
 -
