@@ -18,28 +18,3 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 The relationship between Crude Oil/Nat Gas and Food prices was the strongest.
 
 ?????
-
-
-
-
-There are no SINGULAR, GLOBAL prices for food or many other commodities. We will now need to get proxies for the price of real world items.
-
-1. Crude oil can be tracked via Crude Oil prices [CL=F]
-2. Natural Gas can be tracked via Natural Gas prices [NG=F]
-
-3. Inflation Rates. There is no singular GLOBAL inflation rate but it can be approximated using the trade price of Gold [GC=F]. If inflation is high, gold prices are likely to increase as well; due to people seeking to use Gold as a hedge.
-
-4. Bond Prices can be approximated using the US 5-Year Treasury Bond [ZF=F]
-   
-6. RANDOM VARIABLE ( Berkshire Hathaway ) [BRK-A]
-7. RANDOM VARIABLE ( Tesla ) [TSLA]
-( Random Variables are required to know what a "bad" correlation looks like )
-
-8. Part one of approximating "Food Prices" - Rough Rice Futures [ZR=F]
-9. Part two of approximating "Food Prices" - Wheat Futures [ZE=F]
-
-10. Fertilizer Prices. There is no singular GLOBAL fertilizer price but it can be approximated using the trade price of fertilizer manufacturing companies. We chose [SQM] based in Chile.
-
-
-
-
