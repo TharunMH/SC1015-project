@@ -25,7 +25,11 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 3. Extreme Gradient Boosting (XGB)
 
 ## Conclusion 
-The positively correlated relationship between Crude Oil/Nat Gas and Food prices was the strongest.
+The positively correlated relationships between Crude Oil/Nat Gas and Food prices were the strongest.
+        Linear Regression    XGB
+Crude  :                      0.683       
+
+Nat Gas:                      0.
 
 The relationship between Fertilizer prices and Food prices was positively correlated but unexpectedly weak.
 
