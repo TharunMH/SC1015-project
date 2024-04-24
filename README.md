@@ -27,22 +27,31 @@ For a detailed walkthrough, please view the source code in order from
 3. Extreme Gradient Boosting (XGB)
 
 ## Conclusion 
-The positively correlated relationships between Crude Oil/Nat Gas and Food prices were the strongest.
 
-            Linear Regression (explained variance)    XGB
-Crude      :0.566                                     0.683       
+The following is the explained variance values of the respective variables when used in a linear regression model as predictors to response variable Food prices 
+Variable      Linear Regression (Explained variance)
+Crude oil    :0.566       
 
-Nat Gas    :0.555                                     0.
+Natural Gas  :0.555
 
-Fertilizer :0.371                                     
+Fertilizer   :0.371
 
-Gold       :0.305                                     
+Gold         :0.305
 
-Tesla      :0.293                                      
+Tesla        :0.293
 
-Berkshire  :0.123                                     
+Berkshire    :0.123
 
-The relationship between Fertilizer prices and Food prices was positively correlated but unexpectedly weak.
+The closer the explained variance value is to 1, the more indicative that the linear regression model made using the explained variance value has good fit and high predictive accuracy
+The relationships between Crude Oil/Natural Gas and Food prices were the strongest as shown by model's explained variance values.
+The relationship between Fertilizer prices and Food prices was weakly correlated.
+Gold and Tesla strangely share similar explained variance values which may be indicative of possible issues with using linear regression on time series data as Tesla was meant to be a negative control yet, its moderately high explained variance warrants validation on whether linear regression is a good model for our time series data prediction.
+
+We must take note that time series data consists of the following properties:
+Trends are the overall rate of change in a time series data which is what we seek to reveal and compare through analysis.
+Seasonality which is a property of certain time series data such as our stocks and futures data where there are recurring patterns of change that occurs throughout its the interval of data collection such as seasons affecting food prices and consumer purchasing habits.
+Stationarity is the property of time series data where it is not affected by seasonality.
+The property of a single value can be related to its previous value (also known as lagged value). This can be taken into account using autocorrelation.
 
 
 The Granger Causalitytest is used to test for "Granger Causality" or the degree to which two time series datasets are temporally related.
@@ -101,7 +110,7 @@ To address these:
 3. Handling imbalanced datasets by getting rid of NULL Values.
 4. What are the properties of time series data.
 5. What are some of the machine learning techniques used to perform numeric predictions using time series data.
-6. How to apply the Granger Causality test on time series to check how "temporally" related they are.
+6. How to apply the Granger Causality test on time series data to check how "temporally" related they are.
 7. How to use XGB to predict values of one time series using another.
 
 ## References
